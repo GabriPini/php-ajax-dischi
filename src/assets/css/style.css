@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 75px;
+    background-color: #2e3a46;
+    
+}
+
+header img {
+    height: 75px;
+}
+
+
+main{
+    background-color: #1e2d3b;
+    min-height: calc(100vh - 75px);
+    padding: 50px;
+}
+
+.card{
+    background-color: #2e3a46 !important;
+    height: 100%;
+}
+
+
