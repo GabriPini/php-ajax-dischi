@@ -2,6 +2,7 @@
 
 $album_list =  [
      [
+    "id" => 1,
     "poster" => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
     "title" => "New Jersey",
     "author" => "Bon Jovi",
@@ -9,6 +10,7 @@ $album_list =  [
     "year" => "1988"
   ],
   [
+    "id" => 2,
     "poster" => "https://img.discogs.com/vknPDdrqRbT92pNRX0W4I5N91jg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1246953-1448927086-6590.jpeg.jpg",
     "title" => "Live at Wembley 86",
     "author" => "Queen",
@@ -16,6 +18,7 @@ $album_list =  [
     "year" => "1992"
   ],
   [
+    "id" => 3,
     "poster" => "https://images-na.ssl-images-amazon.com/images/I/41JD3CW65HL.jpg",
     "title" => "Ten's Summoner's Tales",
     "author" => "Sting",
@@ -23,6 +26,7 @@ $album_list =  [
     "year" => "1993"
   ],
   [
+    "id" => 4,
     "poster" => "https://cdn2.jazztimes.com/2018/05/SteveGadd-800x723.jpg",
     "title" => "Steve Gadd Band",
     "author" => "Steve Gadd Band",
@@ -30,6 +34,7 @@ $album_list =  [
     "year" => "2018"
   ],
   [
+    "id" => 5,
     "poster" => "https://images-na.ssl-images-amazon.com/images/I/810nSIQOLiL._SY355_.jpg",
     "title" => "Brave new World",
     "author" => "Iron Maiden",
@@ -37,6 +42,7 @@ $album_list =  [
     "year" => "2000"
   ],
   [
+    "id" => 6,
     "poster" => "https://upload.wikimedia.org/wikipedia/en/9/97/Eric_Clapton_OMCOMR.jpg",
     "title" => "One more car, one more raider",
     "author" => "Eric Clapton",
@@ -44,6 +50,7 @@ $album_list =  [
     "year" => "2002"
   ],
   [
+    "id" => 7,
     "poster" => "https://images-na.ssl-images-amazon.com/images/I/51rggtPgmRL.jpg",
     "title" => "Made in Japan",
     "author" => "Deep Purple",
@@ -51,6 +58,7 @@ $album_list =  [
     "year" => "1972"
   ],
   [
+    "id" => 8,
     "poster" => "https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg",
     "title" => "And Justice for All",
     "author" => "Metallica",
@@ -58,6 +66,7 @@ $album_list =  [
     "year" => "1988"
   ],
   [
+    "id" => 9,
     "poster" => "https://img.discogs.com/KOBsqQwKiNKH-q927oHMyVdDzSo=/fit-in/596x596/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6406665-1418464475-6120.jpeg.jpg",
     "title" => "Hard Wired",
     "author" => "Dave Weckl",
@@ -65,6 +74,7 @@ $album_list =  [
     "year" => "1994"
   ],
   [
+    "id" => 10,
     "poster" => "https://m.media-amazon.com/images/I/71K9CbNZPsL._SS500_.jpg",
     "title" => "Bad",
     "author" => "Michael Jacjson",
@@ -72,3 +82,9 @@ $album_list =  [
     "year" => "1987"
   ]
 ];
+
+
+
+
+header('Access-Control-Allow-Origin: *');
+echo json_encode($album_list);

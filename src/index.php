@@ -21,7 +21,7 @@ require __DIR__  . '/db/database.php'
     <main>
         
         <div class="container d-flex ">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
                     <?php foreach ($album_list as $album ) :?>
                     <div class="col mb-4">
                         <div class="card my-4 ">
