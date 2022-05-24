@@ -83,3 +83,8 @@ $album_list =  [
   ]
 ];
 
+
+
+
+header('Access-Control-Allow-Origin: *');
+echo json_encode($album_list);

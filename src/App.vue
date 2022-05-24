@@ -43,7 +43,7 @@ export default {
   },
   mounted() {
     axios
-    .get('http://localhost/PHP/php-ajax-dischi/src/db/database.php') // http://localhost/PHP/live-json
+    .get('http://localhost/PHP/php-ajax-dischi/src/db/databaseVue.php') 
     .then(response => {
       console.log(response.data);
       this.album_list = response.data;
